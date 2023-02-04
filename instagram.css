@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245, 245, 245, 0.548);
+}
+
+.outercontainer{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 937px; 
+     padding-bottom: 32px;
+    width: 100%;
+    flex-grow: 1;
+    align-items: center;
+ } 
+
+
+.maincontainer{
+    border: 1px solid rgba(12, 12, 12, 0.247);
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 35%;
+    
+}
+.instagram{
+  
+    width: 80%;
+
+}
+input[type="text"],input[type="password"]{
+    text-align: left;
+    padding: 10px;
+   font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    background: rgba(var(--b3f,250,250,250),1);
+ margin:0px 0px 10px 0px;
+}
+
+
+
+input::placeholder{
+    font-weight: normal;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+input:focus::placeholder{
+    position: absolute;
+    font-size: 12px;
+    transform: translateY(-13px);
+}
+ button{
+    border-radius: 3px;
+    /* border: 1px solid rgba(0, 0, 0, 0.192); */
+    padding: 6px;
+    background-color: #a3dfffc9;
+    color: white;
+    width: 100%;
+    border: none;
+    margin:  10px 10px 20px 0px;
+    text-align: center;
+}
+
+
+
+
+   .header__center {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+    color: rgba(var(--f52,142,142,142),1);
+    
+}
+
+.header__center::before,
+.header__center::after {
+    content: "";
+    display: block;
+    height: .1em;
+    background-color: rgba(var(--b38,219,219,219),1);
+   
+}
+
+
+.loginwithfacebook{
+    text-decoration: none;
+    color: #385185;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:500;
+   
+}
+
+
+
+.fb-logo{
+   
+    width: 6%;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+     
+} 
+
+
+    
+.loginwithfacebook:active{
+    color: #808fafd3;
+}
+
+.loginwithfacebook:visited{
+    color: #04247a;
+}
+.signupcontainer{
+    border: 1px solid rgba(12, 12, 12, 0.247);
+    background-color: white;
+   text-align: center;
+    padding:0px 0px 10px;
+    margin: 0px 0px;
+    width: 35%;
+   
+    
+}
+ a {
+    text-decoration: none;
+    color: rgb(10, 122, 214);
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a:active{
+    color: rgba(10, 122, 214, 0.685);
+}
+.dhac{
+    padding: 10px 0px 0px 0px;
+}
+.frgtpass{
+    display: flex;
+    flex-direction: column;
+    padding:15px 0px 0px 0px ;
+    text-align: center;
+    text-decoration: none;
+    color: #00376b;
+}
+
+.anothercontainer{
+    /* border: 1px solid rgba(12, 12, 12, 0.247); */
+    background-color: rgba(245, 245, 245, 0.548);
+   text-align: center;
+    padding:0px 0px 10px;
+    margin: 10px 0px;
+    width: 35%;
+   
+}
+.storeimg{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.apple img{
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+}
+.playstore img{
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+}
+.login:active{
+    background-color: rgb(13, 96, 151);
+}
